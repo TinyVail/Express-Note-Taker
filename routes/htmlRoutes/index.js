@@ -1,19 +1,16 @@
-// requires 
-const path = require('path');
-const router = require('express').Router();
-
+// requires
+const path = require("path");
+const router = require("express").Router();
 
 // get the index file
-router.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/index.html'))
-})
-
-
+router.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "../../public/index.html"));
+});
 
 // get the notes
-router.get('/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, '../../public/notes.html'))
-})
+router.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "../../public/notes.html"));
+});
 
-// export 
+// export
 module.exports = router;
