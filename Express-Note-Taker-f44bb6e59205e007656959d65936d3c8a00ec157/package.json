@@ -1,0 +1,31 @@
+{
+  "name": "express-note-taker",
+  "version": "1.0.0",
+  "description": "An easy to use note taking app using node and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "testingCode",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinyVail/Express-Note-Taker.git"
+  },
+  "keywords": [
+    "note",
+    "taking",
+    "express",
+    "node"
+  ],
+  "author": "TinyVail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TinyVail/Express-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/TinyVail/Express-Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^16.4.1"
+  },
+  "devDependencies": {}
+}
